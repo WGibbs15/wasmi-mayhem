@@ -1,0 +1,12 @@
+diff --git a/fuzz/Cargo.toml b/fuzz/Cargo.toml
+index 693992d6..8f2ec5d3 100644
+--- a/fuzz/Cargo.toml
++++ b/fuzz/Cargo.toml
+@@ -16,7 +16,6 @@ tempdir = "0.3.6"
+ 
+ [dependencies.libfuzzer-sys]
+ git = "https://github.com/rust-fuzz/libfuzzer-sys.git"
+-rev = "737524f7de1e85342b8b6cd1c01edc71018183ba"
+ 
+ # Prevent this from interfering with workspaces
+ [workspace]

@@ -1,0 +1,17 @@
+project: wgibbs15/wasmi-mayhem
+
+# Target name (should be unique within the project)
+target: wasmi-fuzz
+
+image: ghcr.io/wgibbs15/wasmi-fuzz:latest
+
+# List of commands used to test the target
+cmds:
+
+    # Command used to start the target, "@@" is the input file
+    # (when "@@" is omitted Mayhem defaults to stdin inputs)
+    - cmd: /load
+
+    - cmd: /load_wabt
+
+    - cmd: /load_wasmparser
