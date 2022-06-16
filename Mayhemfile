@@ -1,9 +1,7 @@
-project: wgibbs15/wasmi-mayhem
+project: wasmi-mayhem
 
 # Target name (should be unique within the project)
 target: wasmi-fuzz
-
-image: ghcr.io/wgibbs15/wasmi-fuzz:latest
 
 # List of commands used to test the target
 cmds:
